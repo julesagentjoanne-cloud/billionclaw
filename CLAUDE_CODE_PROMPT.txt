@@ -1,0 +1,36 @@
+You are importing the startupClaw venture-studio intelligence layer into another repo.
+
+Read these files first, in order:
+1. CLAUDE_CODE_HANDOFF.md
+2. PAPERCLIP_IMPORT_CHECKLIST.md
+3. PAPERCLIP_MERGE_MAP.md
+4. STARTUPCLAW_MASTER_INDEX.md
+5. SYSTEM_TRANSFER.md
+6. REPO_INVENTORY.md
+
+Goal:
+- treat Paperclip as the operating system/runtime
+- treat startupClaw as the venture-studio intelligence layer
+- import the knowledge, agent system, PMF intake/pathfinding, execution modules, and startup-state logic into the target repo
+
+Priorities:
+1. PMF intake/pathfinding
+2. expert-agent definitions
+3. execution modules
+4. startup workspace/state model
+5. workflow/orchestration logic
+6. optional UI/reference ideas only if useful
+
+Important rules to preserve:
+- agents are venture-studio experts with domain + skill stack
+- major outputs use strategic decomposition before execution
+- startup state evolves through tasks, state updates, evidence objects, and field history
+- founder override exists for key truths
+- the system must distinguish what is executable now vs blocked by missing access
+
+Expected output in target repo:
+- imported/adapted startupClaw methodology
+- imported/adapted agents
+- imported/adapted modules
+- imported startup state/workspace model
+- short import summary describing what was merged and what remains
